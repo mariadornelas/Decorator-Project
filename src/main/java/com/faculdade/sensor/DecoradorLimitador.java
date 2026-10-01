@@ -1,13 +1,5 @@
 package com.faculdade.sensor;
 
-/**
- * Concrete Decorator: restringe a leitura a uma faixa física válida
- * [minimo, maximo], "saturando" o valor nas extremidades. É uma
- * transformação não linear — diferente da calibragem — e por isso é a
- * peça que demonstra que <b>a ordem em que os decoradores são
- * empilhados importa</b>: calibrar antes de limitar não dá o mesmo
- * resultado que limitar antes de calibrar.
- */
 public class DecoradorLimitador extends SensorDecorator {
 
     private final double minimo;

@@ -4,13 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Concrete Decorator: não transforma o valor lido — apenas observa o
- * resultado já processado pela cadeia de decoradores anteriores e
- * registra um alerta quando ele atinge ou ultrapassa um limite. Mostra
- * que um decorador pode acrescentar um efeito colateral (um log, uma
- * notificação) em vez de alterar o dado em si.
- */
 public class DecoradorRegistroAlertas extends SensorDecorator {
 
     private final double limiteAlerta;

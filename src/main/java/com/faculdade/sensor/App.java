@@ -1,10 +1,5 @@
 package com.faculdade.sensor;
 
-/**
- * Cliente de demonstração. Do início ao fim, o código só conhece a
- * interface {@link Sensor} — nunca precisa saber se está lidando com o
- * componente básico ou com uma pilha de decoradores.
- */
 public class App {
 
     public static void main(String[] args) {
