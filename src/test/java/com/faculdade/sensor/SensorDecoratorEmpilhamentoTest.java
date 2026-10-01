@@ -4,12 +4,6 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Testa o que realmente caracteriza o Decorator: decoradores podem ser
- * empilhados em qualquer combinação e em qualquer ordem, sempre
- * respeitando a mesma interface {@link Sensor} — e a ORDEM em que são
- * empilhados pode mudar o resultado final.
- */
 class SensorDecoratorEmpilhamentoTest {
 
     @Test
